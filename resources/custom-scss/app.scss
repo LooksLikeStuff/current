@@ -1,0 +1,64 @@
+//helper styles
+//@import "../../old-resources/scss/helpers";
+//@import "../../old-resources/scss/actives/actives";
+//@import "../../old-resources/scss/diagrams/diagrams";
+
+svg {
+    touch-action: auto !important;
+}
+
+.destroy {
+    cursor: pointer;
+}
+#ticker__options, #sell_ticker__options {
+    margin: 5px 0 !important;
+    padding: 10px !important;
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 0.1rem #cccccc);
+
+    div.ticker__option {
+        cursor: pointer;
+        text-align: start;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #dcdcdc;
+
+        .company__name {
+            color: #ababab;
+            font-size: 14px;
+        }
+
+        .ticker__name {
+            text-decoration: underline;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+    }
+
+    div.ticker__option:last-child {
+        border-bottom: unset;
+        margin-bottom: 0;
+    }
+
+}
+
+.diagrams__item {
+    padding: 0 15px;
+}
+
+table {
+    position: relative;
+    white-space: nowrap;
+
+    th, td {
+        background: var(--vz-card-cap-bg) !important;
+    }
+
+    tr>th:first-child,tr>td:first-child {
+        padding-left: 0;
+        position: sticky;
+        left: -1px;
+
+    }
+}

@@ -1,0 +1,75 @@
+/*
+Template Name: Velzon - Admin & Dashboard Template
+Author: Themesbrand
+Website: https://themesbrand.com/
+Contact: support@themesbrand.com
+File: Custom Css File
+*/
+
+
+body {
+    font-family: "Poppins", sans-serif !important;
+}
+
+table {
+    font-size: 15px !important;
+}
+
+.navbar-brand-box {
+    font-weight: 500 !important;
+    font-size: 32px !important;
+    @media screen and (max-width: 768px) {
+        font-size: 24px !important;
+    }
+
+    > a {
+        color: var(--vz-heading-color) !important;
+    }
+}
+.error {
+    color: #e35454;
+    font-size: 13px;
+}
+
+.has__error {
+    border-color: #e35454;
+}
+
+.subname {
+    font-size: 13px;
+    color: #939393;
+    padding-left: 5px;
+}
+
+#ticker__options, #sell_ticker__options {
+    margin: 5px 0 !important;
+    padding: 10px !important;
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 0.1rem #cccccc);
+
+    div.ticker__option {
+        cursor: pointer;
+        text-align: start;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #dcdcdc;
+
+        .company__name {
+            color: #ababab;
+            font-size: 14px;
+        }
+
+        .ticker__name {
+            text-decoration: underline;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+    }
+
+    div.ticker__option:last-child {
+        border-bottom: unset;
+        margin-bottom: 0;
+    }
+
+}
